@@ -49,11 +49,11 @@ const properties = [
         features: ["Fireplace", "Garden", "Garage"],
         description: "Charming country house in the Aspen mountains, perfect for peaceful getaways in nature.",
         imageUrl: [
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8VA9M5wv-o-NkQPJpo5Sc1FwBQk7PUT3tbQ&s",
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8VA9M5wv-o-NkQPJpo5Sc1FwBQk7PUT3tbQ&s",
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8VA9M5wv-o-NkQPJpo5Sc1FwBQk7PUT3tbQ&s",
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8VA9M5wv-o-NkQPJpo5Sc1FwBQk7PUT3tbQ&s",
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8VA9M5wv-o-NkQPJpo5Sc1FwBQk7PUT3tbQ&s"
+            "https://homes-and-villas.marriott.com/assets/images/vacation-rental-villa.png",
+            "https://homes-and-villas.marriott.com/assets/images/vacation-rental-villa.png",
+            "https://homes-and-villas.marriott.com/assets/images/vacation-rental-villa.png",
+            "https://homes-and-villas.marriott.com/assets/images/vacation-rental-villa.png",
+            "https://homes-and-villas.marriott.com/assets/images/vacation-rental-villa.png"
         ]
     },
     {
@@ -68,11 +68,11 @@ const properties = [
         features: ["Pool", "Gym", "Garden", "Panoramic view"],
         description: "Luxurious villa in Beverly Hills with spacious areas, a private pool, and garden. Ideal for those seeking exclusivity.",
         imageUrl: [
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOSyzP0-s7gs_Kw82O0pKQC9dYwIZ1a-yqPA&s",
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOSyzP0-s7gs_Kw82O0pKQC9dYwIZ1a-yqPA&s",
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOSyzP0-s7gs_Kw82O0pKQC9dYwIZ1a-yqPA&s",
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOSyzP0-s7gs_Kw82O0pKQC9dYwIZ1a-yqPA&s",
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOSyzP0-s7gs_Kw82O0pKQC9dYwIZ1a-yqPA&s"
+            "https://res.cloudinary.com/luxuryp/images/w_1280,c_limit,f_auto,q_auto/fogwm9fcxwf9ofaxghuo/frid4_19202721200",
+            "https://res.cloudinary.com/luxuryp/images/w_1280,c_limit,f_auto,q_auto/fogwm9fcxwf9ofaxghuo/frid4_19202721200",
+            "https://res.cloudinary.com/luxuryp/images/w_1280,c_limit,f_auto,q_auto/fogwm9fcxwf9ofaxghuo/frid4_19202721200",
+            "https://res.cloudinary.com/luxuryp/images/w_1280,c_limit,f_auto,q_auto/fogwm9fcxwf9ofaxghuo/frid4_19202721200",
+            "https://res.cloudinary.com/luxuryp/images/w_1280,c_limit,f_auto,q_auto/fogwm9fcxwf9ofaxghuo/frid4_19202721200"
         ]
     },
     {
@@ -87,11 +87,11 @@ const properties = [
         features: ["Parking", "Pool", "Near the beach"],
         description: "Modern house in Miami with contemporary design, open spaces, and access to the best beaches in the city.",
         imageUrl: [
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVhbW43hQvz5JTVWuS0qOU8TpzUM63UxyJTg&s",
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVhbW43hQvz5JTVWuS0qOU8TpzUM63UxyJTg&s",
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVhbW43hQvz5JTVWuS0qOU8TpzUM63UxyJTg&s",
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVhbW43hQvz5JTVWuS0qOU8TpzUM63UxyJTg&s",
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVhbW43hQvz5JTVWuS0qOU8TpzUM63UxyJTg&s"
+            "https://static3.mansionglobal.com/production/media/article-images/00b428ec07c89dcf4a283cc35040ff48/large_1.Touzet-Studio-Photo-by-Robin-Hill-c-HI-RES-7.jpg",
+            "https://static3.mansionglobal.com/production/media/article-images/00b428ec07c89dcf4a283cc35040ff48/large_1.Touzet-Studio-Photo-by-Robin-Hill-c-HI-RES-7.jpg",
+            "https://static3.mansionglobal.com/production/media/article-images/00b428ec07c89dcf4a283cc35040ff48/large_1.Touzet-Studio-Photo-by-Robin-Hill-c-HI-RES-7.jpg",
+            "https://static3.mansionglobal.com/production/media/article-images/00b428ec07c89dcf4a283cc35040ff48/large_1.Touzet-Studio-Photo-by-Robin-Hill-c-HI-RES-7.jpg",
+            "https://static3.mansionglobal.com/production/media/article-images/00b428ec07c89dcf4a283cc35040ff48/large_1.Touzet-Studio-Photo-by-Robin-Hill-c-HI-RES-7.jpg"
         ]
     },
     {
@@ -125,11 +125,11 @@ const properties = [
         features: ["Garden", "Fireplace", "Close to parks"],
         description: "Classic house in historic Boston with traditional architectural details and a charming garden.",
         imageUrl: [
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwjeixX63O_3d3oQH21jKQcCkPF_lp2a573w&s",
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwjeixX63O_3d3oQH21jKQcCkPF_lp2a573w&s",
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwjeixX63O_3d3oQH21jKQcCkPF_lp2a573w&s",
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwjeixX63O_3d3oQH21jKQcCkPF_lp2a573w&s",
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwjeixX63O_3d3oQH21jKQcCkPF_lp2a573w&s"
+            "https://www.probuilder.com/sites/default/files/pb/Darling-Homes-Woodforest-American-Classic-model-traditional-style.jpg",
+            "https://www.probuilder.com/sites/default/files/pb/Darling-Homes-Woodforest-American-Classic-model-traditional-style.jpg",
+            "https://www.probuilder.com/sites/default/files/pb/Darling-Homes-Woodforest-American-Classic-model-traditional-style.jpg",
+            "https://www.probuilder.com/sites/default/files/pb/Darling-Homes-Woodforest-American-Classic-model-traditional-style.jpg",
+            "https://www.probuilder.com/sites/default/files/pb/Darling-Homes-Woodforest-American-Classic-model-traditional-style.jpg"
         ]
     },
     {
@@ -144,11 +144,11 @@ const properties = [
         features: ["City view", "Gym", "24h Security"],
         description: "Luxurious penthouse in downtown Chicago with stunning city views and access to all urban amenities.",
         imageUrl: [
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVHU2J9T0DnbBUNluUO2TAjaVopfBax_jRoA&s",
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVHU2J9T0DnbBUNluUO2TAjaVopfBax_jRoA&s",
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVHU2J9T0DnbBUNluUO2TAjaVopfBax_jRoA&s",
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVHU2J9T0DnbBUNluUO2TAjaVopfBax_jRoA&s",
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVHU2J9T0DnbBUNluUO2TAjaVopfBax_jRoA&s"
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/432166986.jpg?k=d7f83bbcb47baaf425724e1e504024021bff7e258af889fbcb8df4aa8003adfe&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/432166986.jpg?k=d7f83bbcb47baaf425724e1e504024021bff7e258af889fbcb8df4aa8003adfe&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/432166986.jpg?k=d7f83bbcb47baaf425724e1e504024021bff7e258af889fbcb8df4aa8003adfe&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/432166986.jpg?k=d7f83bbcb47baaf425724e1e504024021bff7e258af889fbcb8df4aa8003adfe&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/432166986.jpg?k=d7f83bbcb47baaf425724e1e504024021bff7e258af889fbcb8df4aa8003adfe&o=&hp=1"
         ]
     },
     {

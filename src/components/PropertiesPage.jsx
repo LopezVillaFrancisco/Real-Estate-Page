@@ -61,7 +61,7 @@ const PropertiesPage = () => {
       <div className="flex flex-col items-center gap-4 mb-8">
         <div className="flex flex-col justify-start w-full sm:flex-row sm:items-center">
           <div className="flex items-center mb-2 justify-center sm:mb-0 md:justify-start">
-            <FaBed className="text-purple-700 mr-2 text-xl" />
+            <FaBed className="text-blue-500 mr-2 text-xl" />
             <label className="block text-sm font-medium text-gray-700 mr-2">Bedrooms</label>
           </div>
           <div className="flex flex-wrap gap-2 mt-2 justify-center sm:justify-start">
@@ -69,7 +69,7 @@ const PropertiesPage = () => {
               <button
                 key={bedroom}
                 onClick={() => handleFilterChange('bedrooms', bedroom.toString())}
-                className={`px-4 py-2 rounded-lg text-white ${filters.bedrooms === bedroom.toString() ? 'bg-purple-700' : 'bg-gray-400'} hover:bg-purple-800`}
+                className={`px-4 py-2 rounded-lg text-white ${filters.bedrooms === bedroom.toString() ? 'bg-blue-500' : 'bg-gray-400'} hover:bg-blue-600`}
               >
                 {bedroom}
               </button>
@@ -77,7 +77,7 @@ const PropertiesPage = () => {
             {filters.bedrooms && (
               <button
                 onClick={() => handleRemoveFilter('bedrooms')}
-                className="ml-2 px-4 py-2 rounded-lg bg-purple-700 text-white hover:bg-purple-800"
+                className="ml-2 px-4 py-2 rounded-lg bg-blue-500 text-white hover:bg-blue-600"
               >
                 Remove Bedrooms Filter
               </button>
@@ -86,7 +86,7 @@ const PropertiesPage = () => {
         </div>
         <div className="flex flex-col justify-start w-full sm:flex-row sm:items-center">
           <div className="flex items-end mb-2 justify-center sm:mb-0 md:justify-start">
-            <FaMapMarkerAlt className="text-purple-700 mr-2 text-xl" />
+            <FaMapMarkerAlt className="text-blue-500 mr-2 text-xl" />
             <label className="block text-sm font-medium text-gray-700">Location</label>
           </div>
           <div className="flex flex-wrap gap-2 mt-2 justify-center sm:justify-start">
@@ -94,7 +94,7 @@ const PropertiesPage = () => {
               <button
                 key={location}
                 onClick={() => handleFilterChange('location', location)}
-                className={`px-4 py-2 rounded-lg text-white ${filters.location === location ? 'bg-purple-700' : 'bg-gray-400'} hover:bg-purple-800`}
+                className={`px-4 py-2 rounded-lg text-white ${filters.location === location ? 'bg-blue-500' : 'bg-gray-400'} hover:bg-blue-600`}
               >
                 {location}
               </button>
@@ -102,7 +102,7 @@ const PropertiesPage = () => {
             {filters.location && (
               <button
                 onClick={() => handleRemoveFilter('location')}
-                className="ml-2 px-4 py-2 rounded-lg bg-purple-700 text-white hover:bg-purple-800"
+                className="ml-2 px-4 py-2 rounded-lg bg-blue-500 text-white hover:bg-blue-600"
               >
                 Remove Location Filter
               </button>
@@ -111,7 +111,7 @@ const PropertiesPage = () => {
         </div>
         <div className="flex flex-col justify-start w-full sm:flex-row sm:items-center">
           <div className="flex items-center mb-2 justify-center sm:mb-0 md:justify-start">
-            <FaTag className="text-purple-700 mr-2 text-xl" />
+            <FaTag className="text-blue-500 mr-2 text-xl" />
             <label className="block text-sm font-medium text-gray-700">Price Range</label>
           </div>
           <div className="flex flex-wrap gap-2 mt-2 justify-center sm:justify-start">
@@ -119,7 +119,7 @@ const PropertiesPage = () => {
               <button
                 key={range}
                 onClick={() => handleFilterChange('priceRange', range)}
-                className={`px-4 py-2 rounded-lg text-white ${filters.priceRange === range ? 'bg-purple-700' : 'bg-gray-400'} hover:bg-purple-800`}
+                className={`px-4 py-2 rounded-lg text-white ${filters.priceRange === range ? 'bg-blue-500' : 'bg-gray-400'} hover:bg-blue-600`}
               >
                 {range}
               </button>
@@ -127,7 +127,7 @@ const PropertiesPage = () => {
             {filters.priceRange && (
               <button
                 onClick={() => handleRemoveFilter('priceRange')}
-                className="ml-2 px-4 py-2 rounded-lg bg-purple-700 text-white hover:bg-purple-800"
+                className="ml-2 px-4 py-2 rounded-lg bg-blue-500 text-white hover:bg-blue-600"
               >
                 Remove Price Filter
               </button>
@@ -156,12 +156,12 @@ const PropertiesPage = () => {
                 </div>
               </div>
               <div>
-                <p className="text-lg font-bold text-purple-700">{property.price}</p>
+                <p className="text-lg font-bold text-blue-500">{property.price}</p>
               </div>
             </div>
             <div className="p-4">
               <Link to={`/properties/${property.id}`}>
-                <button className="w-full bg-purple-700 hover:bg-purple-800 text-white font-semibold py-2 px-4 rounded">
+                <button className="w-full bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded">
                   View Details
                 </button>
               </Link>

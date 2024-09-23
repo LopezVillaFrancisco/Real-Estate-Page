@@ -39,7 +39,7 @@ const PropertyDetail = () => {
     <div className="container mx-auto px-4 py-8">
       <h1 className="text-3xl md:text-4xl font-bold mb-4">{property.name}</h1>
 
-      <div className="mb-4 text-red-500 text-2xl md:text-3xl font-bold">
+      <div className="mb-4 text-blue-500 text-2xl md:text-3xl font-bold">
         {property.price}
       </div>
       <div className="mb-8">
@@ -71,18 +71,18 @@ const PropertyDetail = () => {
               <img
                 src={property.imageUrl[currentImageIndex]}
                 alt={`Slide ${currentImageIndex + 1}`}
-                className="w-full  object-cover rounded"
+                className="w-full object-cover rounded"
               />
               <button
                 onClick={prevImage}
-                className="absolute left-8 top-1/2 transform -translate-y-1/2 text-black p-2 rounded-full bg-transparent"
+                className="absolute left-8 top-1/2 transform -translate-y-1/2 text-blue-500 text-3xl p-4 rounded-full bg-transparent"
                 style={{ backgroundColor: 'transparent', border: 'none' }}
               >
                 &#10094;
               </button>
               <button
                 onClick={nextImage}
-                className="absolute right-8 top-1/2 transform -translate-y-1/2 text-black p-2 rounded-full bg-transparent"
+                className="absolute right-8 top-1/2 transform -translate-y-1/2 text-blue-500 text-3xl p-4 rounded-full bg-transparent"
                 style={{ backgroundColor: 'transparent', border: 'none' }}
               >
                 &#10095;

@@ -14,18 +14,18 @@ const PropertyList = () => {
             <div className="p-4 flex flex-col">
               <div className="flex justify-between items-center mb-2">
                 <h2 className="text-xl font-semibold">{property.name}</h2>
-                <p className="text-lg font-bold text-purple-700">{property.price}</p>
+                <p className="text-lg font-bold text-blue-500">{property.price}</p>
               </div>
               <div className="flex items-center text-gray-600 mb-2">
-                <FaBed className="mr-2" color='#6D28D9'/> {property.rooms} bedrooms
+                <FaBed className="mr-2" color='#3B82F6'/> {property.rooms} bedrooms
               </div>
               <div className="flex items-center text-gray-600 mb-4">
-                <FaMapMarkerAlt className="mr-2" color='#6D28D9' /> {property.location}
+                <FaMapMarkerAlt className="mr-2" color='#3B82F6' /> {property.location}
               </div>
             </div>
             <div className="p-4">
               <Link to={`/properties/${property.id}`}>
-                <button className="w-full bg-purple-700 hover:bg-purple-800 text-white font-semibold py-2 px-4 rounded">
+                <button className="w-full bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded">
                   View Details
                 </button>
               </Link>

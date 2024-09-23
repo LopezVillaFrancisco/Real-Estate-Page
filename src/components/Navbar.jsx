@@ -34,21 +34,21 @@ const Navbar = () => {
         >
           <Link
             to="/"
-            className="block text-gray-300 py-2 px-4 text-sm lg:text-base cursor-pointer hover:text-purple-500"
+            className="block text-gray-300 py-2 px-4 text-sm lg:text-base cursor-pointer hover:text-blue-500"
             onClick={() => setIsOpen(false)}
           >
             Home
           </Link>
           <Link
             to="/properties"
-            className="block text-gray-300 py-2 px-4 text-sm lg:text-base cursor-pointer hover:text-purple-500"
+            className="block text-gray-300 py-2 px-4 text-sm lg:text-base cursor-pointer hover:text-blue-500"
             onClick={() => setIsOpen(false)}
           >
             Properties
           </Link>
           <Link
             to="/aboutus"
-            className="block text-gray-300 py-2 px-4 text-sm lg:text-base cursor-pointer hover:text-purple-500"
+            className="block text-gray-300 py-2 px-4 text-sm lg:text-base cursor-pointer hover:text-blue-500"
             onClick={() => setIsOpen(false)}
           >
             About Us
@@ -56,7 +56,7 @@ const Navbar = () => {
           <div className="relative">
             <button
               onClick={toggleDropdown}
-              className="flex items-center text-gray-300 py-2 px-4 text-sm lg:text-base cursor-pointer hover:text-purple-500"
+              className="flex items-center text-gray-300 py-2 px-4 text-sm lg:text-base cursor-pointer hover:text-blue-500"
             >
               Services
               <FaChevronDown className={`ml-2 ${dropdownOpen ? 'rotate-180' : ''} transition-transform`} />
@@ -65,7 +65,7 @@ const Navbar = () => {
               <div className="absolute top-full left-0 mt-2 bg-gray-800 rounded-lg shadow-lg z-10">
                 <Link
                   to="/services/tenant-representation"
-                  className="block text-gray-300 py-2 px-4 text-sm cursor-pointer hover:text-purple-500"
+                  className="block text-gray-300 py-2 px-4 text-sm cursor-pointer hover:text-blue-500"
                   onClick={() => {
                     setDropdownOpen(false);
                     setIsOpen(false);
@@ -75,7 +75,7 @@ const Navbar = () => {
                 </Link>
                 <Link
                   to="/services/landlord-representation"
-                  className="block text-gray-300 py-2 px-4 text-sm cursor-pointer hover:text-purple-500"
+                  className="block text-gray-300 py-2 px-4 text-sm cursor-pointer hover:text-blue-500"
                   onClick={() => {
                     setDropdownOpen(false);
                     setIsOpen(false);
@@ -85,7 +85,7 @@ const Navbar = () => {
                 </Link>
                 <Link
                   to="/services/location-data-solutions"
-                  className="block text-gray-300 py-2 px-4 text-sm cursor-pointer hover:text-purple-500"
+                  className="block text-gray-300 py-2 px-4 text-sm cursor-pointer hover:text-blue-500"
                   onClick={() => {
                     setDropdownOpen(false);
                     setIsOpen(false);
@@ -98,7 +98,7 @@ const Navbar = () => {
           </div>
           <Link
             to="/contact"
-            className="block text-white bg-purple-700 rounded-lg text-sm lg:text-base py-2 px-4 cursor-pointer hover:bg-purple-800"
+            className="block text-white bg-blue-500 rounded-lg text-sm lg:text-base py-2 px-4 cursor-pointer hover:bg-blue-600"
             onClick={() => setIsOpen(false)}
           >
             Contact

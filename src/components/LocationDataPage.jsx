@@ -4,7 +4,7 @@ import ContactForm from './ContactForm';
 const LocationDataPage = () => {
   return (
     <div className="container mx-auto px-4 py-8">
-      <h1 className="text-3xl font-bold mb-6 text-center text-purple-600 md:text-left md:mb-8">Location Data Solutions</h1>
+      <h1 className="text-3xl font-bold mb-6 text-center text-blue-500 md:text-left md:mb-8">Location Data Solutions</h1>
       <div className="flex flex-col md:flex-row items-center mb-8">
         <div className="md:w-1/2 mb-6 md:mb-0 md:pr-8">
           <p className="text-lg leading-relaxed">

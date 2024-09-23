@@ -4,19 +4,19 @@ import { FaHome, FaLandmark, FaMapMarkerAlt } from 'react-icons/fa';
 const services = [
   {
     id: 1,
-    icon: <FaHome className="text-4xl text-purple-700" />,
+    icon: <FaHome className="text-4xl text-blue-500" />,
     title: 'Tenant Representation',
     description: 'Expert guidance for tenants in finding their ideal rental property.',
   },
   {
     id: 2,
-    icon: <FaLandmark className="text-4xl text-purple-700" />,
+    icon: <FaLandmark className="text-4xl text-blue-500" />,
     title: 'Landlord Representation',
     description: 'Professional services for landlords to manage and lease their properties.',
   },
   {
     id: 3,
-    icon: <FaMapMarkerAlt className="text-4xl text-purple-700" />,
+    icon: <FaMapMarkerAlt className="text-4xl text-blue-500" />,
     title: 'Location Data Solutions',
     description: 'Advanced analytics to find the best locations for your needs.',
   },
@@ -35,7 +35,7 @@ const Services = () => {
               </div>
               <h3 className="text-xl font-semibold mb-2">{service.title}</h3>
               <p className="text-sm text-gray-600 mb-4">{service.description}</p>
-              <a href="/" className="inline-block bg-purple-700 text-white py-2 px-4 rounded hover:bg-purple-800">
+              <a href="/" className="inline-block bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600">
                 View More
               </a>
             </div>
