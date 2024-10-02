@@ -3,6 +3,17 @@ import { useParams } from 'react-router-dom';
 import properties from '../propertiesData';
 import { FaBed, FaMapMarkerAlt, FaCalendarAlt, FaRuler } from 'react-icons/fa';
 import ContactForm from './ContactForm';
+import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
+import 'leaflet/dist/leaflet.css';
+import L from 'leaflet';
+
+// Para asegurarte de que el marcador se muestre correctamente
+delete L.Icon.Default.prototype._getIconUrl;
+L.Icon.Default.mergeOptions({
+  iconRetinaUrl: require('leaflet/dist/images/marker-icon-2x.png'),
+  iconUrl: require('leaflet/dist/images/marker-icon.png'),
+  shadowUrl: require('leaflet/dist/images/marker-shadow.png'),
+});
 
 const PropertyDetail = () => {
   const { id } = useParams();
@@ -112,6 +123,25 @@ const PropertyDetail = () => {
       </div>
 
       <p className="text-gray-700 mb-6 text-sm sm:text-base">{property.description}</p>
+
+      <div className="mb-8" style={{ height: '400px', width: '100%' }}>
+        <MapContainer
+          center={[property.latitude, property.longitude]}
+          zoom={13}
+          style={{ height: '100%', width: '100%' }}
+          scrollWheelZoom={true}
+        >
+          <TileLayer
+            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+            attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+          />
+          <Marker position={[property.latitude, property.longitude]}>
+            <Popup>
+              {property.name}
+            </Popup>
+          </Marker>
+        </MapContainer>
+      </div>
 
       <ContactForm title={"If you're interested, don't hesitate to contact us."} />
     </div>
